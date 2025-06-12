@@ -124,9 +124,8 @@ HealthHacked/
 
 ## 👨‍💻 Contributors
 
-* **AI & Backend** – [Hammad Malik](https://github.com/hammadmalik00)
-* **Frontend** – \[Teammates here...]
-* **Mentors & Advisors** – \[If applicable]
+* **AI & Backend** – [Hammad Malik](https://github.com/hammadmalik17)
+* **Frontend** – KLN Sai Aditya & Ayushmaan Manish Kumar 
 
 ---
 
