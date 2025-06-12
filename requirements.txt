@@ -1,0 +1,21 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Machine Learning
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.24.4
+
+# Natural Language Processing
+nltk==3.8.1
+
+# Database
+sqlite3
+
+# Utilities
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Development
+pytest==7.4.3
