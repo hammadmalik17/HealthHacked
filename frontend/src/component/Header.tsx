@@ -2,7 +2,7 @@ export function Header() {
     return (
         <div className="flex w-screen h-25 items-center justify-around font-bold text-xl font-mono">
             <div>Health Hacked</div>
-            <div className="hidden gap-x-10 bg-stone-300 p-3 w-170 items-center justify-center rounded-full md:flex"> 
+            <div className="hidden gap-x-10 bg-stone-300 p-3 w-170 items-center justify-center rounded-full lg:flex"> 
             <div className="group cursor-pointer flex flex-col items-center">
                 <div>Home</div>
                 <div className="bg-black h-1 w-0 group-hover:w-full transition-all duration-300"></div>
