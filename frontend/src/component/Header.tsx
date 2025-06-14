@@ -1,4 +1,17 @@
+import { useNavigate } from 'react-router-dom';
+
 export function Header() {
+
+    const navigate = useNavigate();
+
+    const handleSignUp = () => {
+        navigate('/signup');
+    };
+
+    const handleLogin = () => {
+        navigate('/login');
+    };
+
     return (
         <div className="flex w-screen h-25 items-center justify-around font-bold text-xl font-mono">
             <div>Health Hacked</div>
@@ -30,8 +43,14 @@ export function Header() {
             
             </div>
             <div className="flex gap-x-5">
-                <button className=" p-2 cursor-pointer bg-gray-300 rounded-md">Sign Up</button>
-                <button className=" p-2 cursor-pointer bg-mycolor-100 rounded-md">Login</button>
+                <button 
+                    className=" p-2 cursor-pointer bg-gray-300 rounded-md"
+                    onClick={handleSignUp}
+                >Sign Up</button>
+                <button 
+                    className=" p-2 cursor-pointer bg-mycolor-100 rounded-md"
+                    onClick={handleLogin}
+                >Login</button>
             </div>
         </div>
     )
