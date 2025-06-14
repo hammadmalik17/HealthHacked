@@ -12,7 +12,7 @@ export function Home(){
     return (
         <div className="bg-mycolor-100">
          <div className='fixed top-0 left-0 w-full z-50 bg-mycolor-300'><Header/></div>
-         <main className="bg-mycolor-100 w-11/12 mx-auto mt-32 h-screen rounded-md flex flex-col items-center">
+         <main className="bg-mycolor-100 w-11/12 mx-auto mt-25 h-screen rounded-md flex flex-col items-center">
                 <h1 className="text-8xl font-bold text-mycolor-200 mt-16">
                     Health Hacked
                 </h1>

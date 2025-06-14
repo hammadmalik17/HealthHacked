@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleSignIn = (e) => {
+    const handleSignIn = (e:any) => {
         e.preventDefault();
         // Add your login logic here
         console.log('Login attempt:', { email, password });
